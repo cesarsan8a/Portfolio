@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Nav from './Nav';
 
-class Portfolio extends Component {
+class Home extends Component {
   render () {
     return (
       <Nav />
@@ -9,4 +9,4 @@ class Portfolio extends Component {
   }
 }
 
-export default Portfolio;
+export default Home;

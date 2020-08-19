@@ -1,11 +1,14 @@
 import React from 'react';
-import Portfolio from './Portfolio';
+import Home from './Home';
+import { HashRouter as Router, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <Portfolio />
-    </div>
+    <Router>
+      <div>
+        <Route exact path="/" component={ Home } />
+      </div>
+    </Router>
   );
 }
 

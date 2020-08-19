@@ -1,0 +1,28 @@
+nav {
+  display: flex;
+  background-color: pink;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+}
+
+.logo-container {
+  flex-grow: 1;
+  justify-content: flex-start;
+}
+
+.links-container {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+.logo-nav {
+  height: 8em;
+  width: 8em;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.nav-link {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
