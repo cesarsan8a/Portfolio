@@ -6,14 +6,17 @@ nav {
 }
 
 .logo-container {
+  display: flex;
   flex-grow: 1;
-  justify-content: flex-start;
+  padding-left: 15%;
 }
 
 .links-container {
   display: flex;
   flex-grow: 1;
   justify-content: flex-end;
+  padding-left: 10%;
+  padding-right: 15%;
 }
 .logo-nav {
   height: 8em;
@@ -23,6 +26,5 @@ nav {
 }
 
 .nav-link {
-  margin-left: 0.5em;
-  margin-right: 0.5em;
+  margin: auto 1em auto 1em;
 }
