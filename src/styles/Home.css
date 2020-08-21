@@ -1,6 +1,7 @@
 .profile-container {
   background-color: pink;
   padding-top: 5.5em;
+  padding-bottom: 5.5em;
 }
 
 .profile-img {
@@ -20,7 +21,6 @@
   text-align: center;
 }
 .profile-about-p-cont {
-  position: relative;
-  left: 35%;
-  width: 25%;
+  margin: auto;
+  width: 25em;
 }

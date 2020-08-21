@@ -21,8 +21,12 @@ class Home extends Component {
               <p>I'm a web developer based in Melbourne, Australia. Other stuff about me, bla, bla, bla. Additional info. Ok, enough.</p>
             </div>
           </div>
+
         </div>
 
+        <div className="skills-cont">
+          
+        </div>
       </div>
     );
   }
