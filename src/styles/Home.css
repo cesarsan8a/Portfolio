@@ -1,0 +1,26 @@
+.profile-container {
+  background-color: pink;
+  padding-top: 5.5em;
+}
+
+.profile-img {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-img img {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 10em;
+  height: 10em;
+}
+
+.profile-about {
+  padding-top: 1em;
+  text-align: center;
+}
+.profile-about-p-cont {
+  position: relative;
+  left: 35%;
+  width: 25%;
+}
