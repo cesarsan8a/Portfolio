@@ -24,7 +24,6 @@ function Nav () {
         <div className="nav-link">
           <Link to='/contact'>Contact</Link>
         </div>
-
       </div>
     </nav>
   );
