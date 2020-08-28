@@ -1,6 +1,6 @@
 nav {
   display: flex;
-  background-color: pink;
+  background-color: #222831;
   padding-top: 0.8em;
   padding-bottom: 0.5em;
 }
@@ -19,9 +19,10 @@ nav {
   padding-right: 15%;
 }
 .logo-nav {
+  background-color: white;
   height: 7em;
   width: 7em;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 50%;
 }
 

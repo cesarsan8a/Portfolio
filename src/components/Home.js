@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Nav from './Nav';
+import Footer from './Footer';
 import Intro from './Intro';
+import cesar from '../utils/cesar_profile.jpeg';
 import '../styles/Home.css';
 
 class Home extends Component {
@@ -12,7 +14,7 @@ class Home extends Component {
 
         <div className="profile-container">
           <div className="profile-img">
-            <img src="http://placekitten.com/200/300" />
+            <img src={ cesar } />
           </div>
 
           <div className="profile-about">
@@ -21,12 +23,9 @@ class Home extends Component {
               <p>I'm a web developer based in Melbourne, Australia. Other stuff about me, bla, bla, bla. Additional info. Ok, enough.</p>
             </div>
           </div>
-
         </div>
 
-        <div className="skills-cont">
-          
-        </div>
+        <Footer />
       </div>
     );
   }

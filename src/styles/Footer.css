@@ -1,0 +1,22 @@
+.footer-cont {
+  background-color: #222831;
+  padding-top: 1em;
+}
+
+.links-cont {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-link {
+  margin: auto 1em auto 1em;
+}
+
+.logo-links {
+}
+
+.cc-cesar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

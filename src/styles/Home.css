@@ -1,5 +1,5 @@
 .profile-container {
-  background-color: pink;
+  background-color: #eeeeee;
   padding-top: 5.5em;
   padding-bottom: 5.5em;
 }
@@ -10,8 +10,9 @@
 }
 
 .profile-img img {
+  background-color: white;
   border-radius: 50%;
-  object-fit: cover;
+  object-fit: contain;
   width: 10em;
   height: 10em;
 }

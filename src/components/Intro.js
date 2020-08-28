@@ -1,12 +1,26 @@
 import React from 'react';
 import '../styles/Intro.css';
 
+const characteristics = [
+  "Web Developer",
+  "Chemical Engineer",
+  "Latino",
+  "Not a salad"
+];
+
+const describeMe = function (adj) {
+  return adj[Math.round(Math.random() * 3)];
+}
+
 function Intro () {
   return (
     <div className="intro-container">
       <div className="greeting">
-        <h1>Hi I'm Cesar</h1>
-        <h3>A web dev not a salad</h3>
+        <h1>I'm Cesar</h1>
+      </div>
+
+      <div className="characteristics">
+        <h2>{ describeMe(characteristics) }</h2>
       </div>
 
       <div className="intro-img-container">
