@@ -1,14 +1,28 @@
 nav {
   display: flex;
-  background-color: #222831;
+  background-color: #364f6b;
   padding-top: 0.8em;
   padding-bottom: 0.5em;
+  border-bottom: solid black;
 }
 
 .logo-container {
   display: flex;
   flex-grow: 1;
   padding-left: 15%;
+}
+
+.logo-container h3 {
+  font-size: 3em;
+  margin: 0;
+  color: #3fc1c9;
+  text-shadow: 5px 5px #fc5185;
+  text-decoration: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: #f5f5f5;
 }
 
 .links-container {
@@ -18,12 +32,20 @@ nav {
   padding-left: 10%;
   padding-right: 15%;
 }
+
+.links-container a:hover {
+  transition: 0.3s;
+  color: #3fc1c9;
+  text-shadow: 2px 2px #fc5185;
+}
+
 .logo-nav {
   background-color: white;
   height: 7em;
   width: 7em;
   object-fit: contain;
   border-radius: 50%;
+  border: 3px solid #3fc1c9;
 }
 
 .nav-link {

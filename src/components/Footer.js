@@ -15,6 +15,7 @@ function Footer () {
               <SiTwitter />
             </IconContext.Provider>
           </a>
+          <div className="footer-link-us"></div>
         </div>
 
         <div className="footer-link">
@@ -23,6 +24,7 @@ function Footer () {
               <SiGithub />
             </IconContext.Provider>
           </a>
+          <div className="footer-link-us"></div>
         </div>
 
         <div className="footer-link">
@@ -31,6 +33,7 @@ function Footer () {
               <SiLinkedin />
             </IconContext.Provider>
           </a>
+          <div className="footer-link-us"></div>
         </div>
 
       </div>

@@ -9,7 +9,8 @@ function Nav () {
 
       <div className="logo-container">
         <Link to="/">
-          <img className="logo-nav" src={ cesar }/>
+          <h3>CS</h3>
+          {/* <img className="logo-nav" src={ cesar }/> */}
         </Link>
       </div>
 
@@ -27,7 +28,7 @@ function Nav () {
         </div>
 
         <div className="nav-link">
-          <Link to='/resume'>Resume</Link>
+          <a href="https://www.canva.com/design/DAEFwHfLcM4/ofwrUoNcF7lNyFkmoeeGDA/view?utm_content=DAEFwHfLcM4&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton" target="_blank">Resume</a>
         </div>
 
         <div className="nav-link">

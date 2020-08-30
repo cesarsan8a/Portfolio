@@ -3,9 +3,10 @@ import '../styles/Intro.css';
 
 const characteristics = [
   "Web Developer",
-  "Chemical Engineer",
+  "Engineer",
   "Latino",
-  "Not a salad"
+  "It's pronounced like the salad",
+  "I'm not a salad, though"
 ];
 
 
@@ -25,9 +26,8 @@ class Intro extends Component {
     }
   }
 
-  startAdjChange = () => {
+  startAdjChange = () => { // set the time interval between the characteristics
     this.intervalId = setInterval(this.changeAdj, 3000);
-    console.log('interval');
   }
 
   componentDidMount() {
@@ -45,9 +45,6 @@ class Intro extends Component {
           <h2>{ characteristics[this.state.adj] }</h2>
         </div>
 
-        <div className="intro-img-container">
-          <img src="https://via.placeholder.com/700x300"/>
-        </div>
       </div>
     );
   }
