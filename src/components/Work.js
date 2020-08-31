@@ -3,6 +3,7 @@ import Nav from './Nav';
 import Footer from './Footer';
 import Intro from './Intro';
 import Project from './Project';
+import Contact from './Contact';
 
 import david from '../utils/david_phone.jpg';
 import ttt from '../utils/tic-tac-toe.png';
@@ -46,6 +47,7 @@ class Work extends Component {
           description="The very same webpage that you are looking right now (: . Built using React."
         />
 
+        <Contact />
         <Footer />
       </div>
     );

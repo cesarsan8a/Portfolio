@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Nav from './Nav';
 import Footer from './Footer';
 import Intro from './Intro';
+import Contact from './Contact';
 import cesar from '../utils/cesar_profile.jpeg';
 import david from '../utils/david_gum.jpg';
 import '../styles/Home.css';
@@ -30,6 +31,7 @@ class Home extends Component {
           </div>
         </div>
 
+        <Contact />
         <Footer />
       </div>
     );
