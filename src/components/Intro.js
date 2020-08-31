@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import david from '../utils/david.jpg';
 import '../styles/Intro.css';
 
 const characteristics = [
@@ -42,14 +41,14 @@ class Intro extends Component {
       <div className="intro-container">
 
         <div className="greeting">
-          <h1>Hey! I'm Cesar. I'm a</h1>
+          <h1>{this.props.text}</h1>
           <div className="characteristics">
             <h2>{ characteristics[this.state.adj] }</h2>
           </div>
         </div>
 
         <div className="david">
-          <img src={ david } alt="David with chewy" />
+          <img src={ this.props.david } alt="David banner" />
         </div>
 
       </div>

@@ -13,24 +13,24 @@
   background-color: white;
   border-radius: 50%;
   object-fit: contain;
-  width: 10em;
-  height: 10em;
+  width: 15em;
+  height: 15em;
 }
 
 .blue {
   position: relative;
   background-color: #3fc1c9;
   border-radius: 50%;
-  width: 10em;
-  height: 10em;
+  width: 15em;
+  height: 15em;
 }
 
 .pink {
   position: relative;
   background-color: #fc5185;
   border-radius: 50%;
-  width: 10em;
-  height: 10em;
+  width: 15em;
+  height: 15em;
 }
 
 .profile-about {

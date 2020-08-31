@@ -19,7 +19,7 @@ function Nav () {
         </div>
 
         <div className="nav-link">
-          <Link to='/projects'>Projects</Link>
+          <Link to='/work'>Work</Link>
         </div>
 
         <div className="nav-link">

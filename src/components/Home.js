@@ -3,6 +3,7 @@ import Nav from './Nav';
 import Footer from './Footer';
 import Intro from './Intro';
 import cesar from '../utils/cesar_profile.jpeg';
+import david from '../utils/david_gum.jpg';
 import '../styles/Home.css';
 
 class Home extends Component {
@@ -10,7 +11,10 @@ class Home extends Component {
     return (
       <div className="home-container">
         <Nav />
-        <Intro />
+        <Intro
+          text="Hey! I'm Cesar. I'm a"
+          david={ david }
+        />
 
         <div className="profile-container">
           <div className="profile-img">
