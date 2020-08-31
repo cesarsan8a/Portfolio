@@ -30,12 +30,14 @@ body {
   text-align: center;
   text-shadow: 5px 5px 2px #f5f5f5;
   padding: 1em;
+  transition: 0.8s;
 }
 .greeting {
   text-align: left;
   padding-top: 5%;
   padding-bottom: 2em;
   padding-right: 1em;
+  transition: 0.8s;
 }
 
 .greeting h1 {
@@ -45,33 +47,52 @@ body {
   width: 350px;
   color: #3fc1c9;
   text-shadow: 5px 5px #fc5185;
+  transition: 0.8s;
 }
 
 .david {
   margin: auto 0;
   margin-bottom: 0;
+  transition: 0.8s;
 }
 
 .david img {
   display: flex;
-  width: 30em;
+  height: 20em;
+  transition: 0.8s;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .characteristics {
-    max-width: 70%;
+    max-width: 15em;
+    transition: 0.8s;
   }
 
   .characteristics h2 {
-    font-size: 270%;
+    font-size: 180%;
+    transition: 0.8s;
   }
 
   .greeting {
-    padding-top: 4em;
+    padding-top: 3em;
     display: block;
+    transition: 0.8s;
   }
 
-  .greeting img {
-    padding-bottom: 1em;
+  .greeting h1 {
+    font-size: 1.8em;
+    width: 8em;
+    padding-bottom: 0.5em;
+    transition: 0.8s;
+  }
+
+  .david {
+    padding-right: 1em;
+    transition: 0.8s;
+  }
+
+  .david img {
+    height: 15em;
+    transition: 0.8s;
   }
 }

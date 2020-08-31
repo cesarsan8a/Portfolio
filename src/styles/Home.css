@@ -18,7 +18,6 @@
 }
 
 .blue {
-  position: relative;
   background-color: #3fc1c9;
   border-radius: 50%;
   width: 15em;
@@ -26,7 +25,6 @@
 }
 
 .pink {
-  position: relative;
   background-color: #fc5185;
   border-radius: 50%;
   width: 15em;
@@ -106,4 +104,28 @@ a {
 a:hover {
   text-shadow: 2px 2px #3fc1c9;
   transition: 0.3s;
+}
+
+@media (max-width: 800px) {
+  .profile-img img, .blue, .pink {
+    width: 8em;
+    height: 8em;
+  }
+
+  .profile-about-p-cont, .can-do, .can-help {
+    width: 300px;
+  }
+
+  .profile-about-p-cont h2, .can-do h2, .can-help h2 {
+    font-size: 1.4em;
+  }
+
+  .profile-about-p-cont h3, .can-do h3, .can-help h3 {
+    font-size: 1.2em;
+  }
+
+  .profile-about-p-cont p, .can-do p, .can-help p {
+    font-size: 1em;
+  }
+
 }
