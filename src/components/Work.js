@@ -8,7 +8,7 @@ import Contact from './Contact';
 import david from '../utils/david_phone.jpg';
 import ttt from '../utils/tic-tac-toe.png';
 import spotify from '../utils/spotify_playlist_maker.png';
-import portfolio from '../utils/david_gum.jpg';
+import portfolio from '../utils/david_gum_work.jpg';
 import worldTour from '../utils/ga_worldtour.png';
 
 import '../styles/Work.css';
