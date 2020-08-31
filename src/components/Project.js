@@ -7,7 +7,9 @@ class Project extends Component {
         <h2>{ this.props.title }</h2>
         <div className="desc-pic">
           <div className="project-pic">
-            <img src={ this.props.pic } alt="project"/>
+            <a href={ this.props.link } target="_blank" rel="noopener noreferrer">
+              <img src={ this.props.pic } alt="project"/>
+            </a>
           </div>
 
           <div className="description">

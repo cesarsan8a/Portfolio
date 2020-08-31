@@ -35,9 +35,75 @@
 
 .profile-about {
   padding-top: 1em;
-  text-align: center;
 }
+
 .profile-about-p-cont {
   margin: auto;
-  width: 25em;
+  width: 600px;
+  padding-bottom: 3em;
+}
+
+.profile-about-p-cont h2 {
+  font-size: 2em;
+  text-shadow: 5px 5px #3fc1c9;
+}
+
+.profile-about-p-cont h3 {
+  font-size: 1.6em;
+}
+
+.profile-about-p-cont p {
+  font-size: 1.3em;
+}
+
+#nerd {
+  text-decoration: line-through;
+}
+
+.can-do {
+  width: 600px;
+  margin: auto;
+  padding-bottom: 3em;
+}
+
+.can-do h2 {
+  font-size: 2em;
+  text-shadow: 5px 5px #3fc1c9;
+}
+
+.can-do h3 {
+  font-size: 1.6em;
+}
+
+.can-do p {
+  font-size: 1.2em;
+}
+
+.can-help {
+  width: 600px;
+  margin: auto;
+}
+
+.can-help h2 {
+  font-size: 2em;
+  text-shadow: 5px 5px #3fc1c9;
+}
+
+.can-help h3 {
+  font-size: 1.6em;
+}
+
+.can-help p {
+  font-size: 1.2em;
+}
+
+a {
+  color: black;
+  text-shadow: 1px 1px #fc5185;
+  transition: 0.8s;
+}
+
+a:hover {
+  text-shadow: 2px 2px #3fc1c9;
+  transition: 0.3s;
 }

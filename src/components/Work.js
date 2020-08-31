@@ -26,24 +26,28 @@ class Work extends Component {
         <Project
           pic={ ttt }
           title="tic-tac-toe"
+          link="https://cesarsan8a.github.io/project0/"
           description="The popular game of tic-tac-toe using HTML, CSS and JavaScript."
         />
 
         <Project
           pic={ spotify }
           title="Playlist Maker"
+          link="https://project1-cs-spotify.herokuapp.com/"
           description="Built using Ruby on Rails and the Spotify API, this entire CRUD systems allows the user to save songs on multiple playlists. "
         />
 
         <Project
           pic={ worldTour }
           title="Concert Planner"
+          link="https://ga-world-tour-b8252.web.app/"
           description="Built using React and the BandsInTown API, the user can see the upcoming concerts displayed in a world map."
         />
 
         <Project
           pic={ portfolio }
           title="Personal Portfolio"
+          link="https://www.cesarsnchz.com/"
           description="The very same webpage that you are looking right now (: . Built using React."
         />
 

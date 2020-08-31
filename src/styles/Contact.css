@@ -18,7 +18,7 @@
   text-align: center;
   font-size: 1.8em;
   color: #fc5185;
-  text-shadow: 5px 5px #3fc1c9;
+  text-shadow: 1px 1px #3fc1c9;
 }
 
 .contact-text p {
@@ -36,5 +36,5 @@
 
 .contact-text p a:hover {
   color: #fc5185;
-  text-shadow: 5px 5px #3fc1c9;
+  text-shadow: 2px 2px #3fc1c9;
 }

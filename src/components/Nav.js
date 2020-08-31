@@ -9,7 +9,6 @@ function Nav () {
       <div className="logo-container">
         <Link to="/">
           <h3>CS</h3>
-          {/* <img className="logo-nav" src={ cesar }/> */}
         </Link>
       </div>
 
