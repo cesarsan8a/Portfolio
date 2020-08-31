@@ -10,7 +10,7 @@ function Footer () {
 
       <div className="links-cont">
         <div className="footer-link">
-          <a href="https://twitter.com/Cesarsan8a" target="_blank">
+          <a href="https://twitter.com/Cesarsan8a" target="_blank" rel="noopener noreferrer">
             <IconContext.Provider value={{ size: "2em", className: "logo-links" }}>
               <SiTwitter />
             </IconContext.Provider>
@@ -19,7 +19,7 @@ function Footer () {
         </div>
 
         <div className="footer-link">
-          <a href="https://github.com/cesarsan8a" target="_blank">
+          <a href="https://github.com/cesarsan8a" target="_blank" rel="noopener noreferrer">
             <IconContext.Provider value={{ size: "2em", className: "logo-links" }}>
               <SiGithub />
             </IconContext.Provider>
@@ -28,7 +28,7 @@ function Footer () {
         </div>
 
         <div className="footer-link">
-          <a href="https://www.linkedin.com/in/cesarsanchez0ch04/" target="_blank">
+          <a href="https://www.linkedin.com/in/cesarsanchez0ch04/" target="_blank" rel="noopener noreferrer">
             <IconContext.Provider value={{ size: "2em", className: "logo-links" }}>
               <SiLinkedin />
             </IconContext.Provider>

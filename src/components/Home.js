@@ -14,7 +14,7 @@ class Home extends Component {
 
         <div className="profile-container">
           <div className="profile-img">
-            <img src={ cesar } alt="Cesar's profile picture" />
+            <img src={ cesar } alt="Cesar's profile" />
           </div>
 
           <div className="profile-about">
