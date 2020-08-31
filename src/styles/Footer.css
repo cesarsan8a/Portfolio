@@ -5,6 +5,7 @@ a {
 .footer-cont {
   background-color: #364f6b;
   padding-top: 1em;
+  border-top: solid black;
 }
 
 .links-cont {

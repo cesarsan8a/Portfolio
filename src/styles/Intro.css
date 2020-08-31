@@ -44,3 +44,13 @@ body {
   justify-content: center;
   padding-bottom: 4em;
 }
+
+@media (max-width: 600px) {
+  .characteristics {
+    max-width: 70%;
+  }
+
+  .characteristics h2 {
+    font-size: 280%;
+  }
+}
