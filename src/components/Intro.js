@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import cesar from '../utils/cesar_profile.jpeg';
 import '../styles/Intro.css';
 
 const characteristics = [
@@ -38,7 +39,8 @@ class Intro extends Component {
     return (
       <div className="intro-container">
         <div className="greeting">
-          <h1>I'm Cesar</h1>
+          <img src={ cesar } alt="Cesar's profile pic" />
+          <h1>Hey, I'm Cesar</h1>
         </div>
 
         <div className="characteristics">
