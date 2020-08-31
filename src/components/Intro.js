@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
-import cesar from '../utils/cesar_profile.jpeg';
+import david from '../utils/david.jpg';
 import '../styles/Intro.css';
 
 const characteristics = [
   "Web Developer",
   "Engineer",
   "Latino",
+  "Problem Solver",
+  "Team player",
   "It's pronounced like the salad",
-  "I'm not a salad, though"
+  "Not a salad, though"
 ];
 
 
@@ -38,13 +40,16 @@ class Intro extends Component {
   render () {
     return (
       <div className="intro-container">
+
         <div className="greeting">
-          <img src={ cesar } alt="Cesar's profile pic" />
-          <h1>Hey, I'm Cesar</h1>
+          <h1>Hey! I'm Cesar. I'm a</h1>
+          <div className="characteristics">
+            <h2>{ characteristics[this.state.adj] }</h2>
+          </div>
         </div>
 
-        <div className="characteristics">
-          <h2>{ characteristics[this.state.adj] }</h2>
+        <div className="david">
+          <img src={ david } alt="David with chewy" />
         </div>
 
       </div>

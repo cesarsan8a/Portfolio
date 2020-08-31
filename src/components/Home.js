@@ -14,11 +14,12 @@ class Home extends Component {
 
         <div className="profile-container">
           <div className="profile-img">
+            <div className="blue"></div>
             <img src={ cesar } alt="Cesar's profile" />
+            <div className="pink"></div>
           </div>
 
           <div className="profile-about">
-            <h2>Hello</h2>
             <div className="profile-about-p-cont">
               <p>I'm a web developer based in Melbourne, Australia. Other stuff about me, bla, bla, bla. Additional info. Ok, enough.</p>
             </div>

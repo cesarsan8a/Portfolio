@@ -17,6 +17,22 @@
   height: 10em;
 }
 
+.blue {
+  position: relative;
+  background-color: #3fc1c9;
+  border-radius: 50%;
+  width: 10em;
+  height: 10em;
+}
+
+.pink {
+  position: relative;
+  background-color: #fc5185;
+  border-radius: 50%;
+  width: 10em;
+  height: 10em;
+}
+
 .profile-about {
   padding-top: 1em;
   text-align: center;

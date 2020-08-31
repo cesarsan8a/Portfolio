@@ -1,63 +1,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+
+
 body {
   font-family: 'Bungee Inline', cursive;
 }
 
 .intro-container {
-  background-color: #f5f5f5;
+  display: flex;
+  background-color: rgb(18,75,129);
   width: 100%;
-  padding-bottom: 1.5em;
+  justify-content: center;
 }
 
 .characteristics {
-  max-width: 700px;
-  height: 300px;
+  width: 425px;
+  height: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  background-color: #364f6b;
-  box-shadow: 10px 10px 2px;
+  background-color: #3fc1c9;
+  box-shadow: 10px 10px 2px #fc5185;
+  border-bottom: solid #3fc1c9;
+  border-right: solid #3fc1c9;
 }
 
 .characteristics h2 {
-  font-size: 400%;
-  color: #f5f5f5;
+  font-size: 220%;
+  color: black;
   text-align: center;
-  text-shadow: 5px 5px 2px #3fc1c9;
+  text-shadow: 5px 5px 2px #f5f5f5;
   padding: 1em;
-  transition-property: all;
 }
 .greeting {
-  display: flex;
-  text-align: center;
+  text-align: left;
   padding-top: 5%;
-  justify-content: center;
-  padding-bottom: 1em;
-}
-
-.greeting img {
-  width: 15em;
-  height: 15em;
-  object-fit: contain;
-  background-color: white;
-  border-right: solid #3fc1c9;
-  border-bottom: solid #3fc1c9;
-  box-shadow: 5px 5px 2px #fc5185;
+  padding-bottom: 2em;
 }
 
 .greeting h1 {
-  margin-top: 0;
-  margin: auto 0;
-  padding: 1em;
+  color: #3fc1c9;
+  text-shadow: 5px 5px #fc5185;
 }
 
-.intro-img-container {
-  margin-top: 2.5em;
+.david {
+  margin: auto 0;
+  margin-bottom: 0;
+}
+
+.david img {
   display: flex;
-  justify-content: center;
-  padding-bottom: 4em;
+  width: 30em;
+}
+
+.greeting h1 {
+  font-size: 3em;
+  margin-top: 0;
+  margin: auto 0;
+  padding-left: 0.8em;
+  max-width: 400px;
 }
 
 @media (max-width: 600px) {
@@ -67,5 +71,14 @@ body {
 
   .characteristics h2 {
     font-size: 270%;
+  }
+
+  .greeting {
+    padding-top: 4em;
+    display: block;
+  }
+
+  .greeting img {
+    padding-bottom: 1em;
   }
 }
