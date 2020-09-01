@@ -1,7 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Roboto:wght@900&display=swap');
+
 
 body {
-  font-family: 'Chivo', sans-serif;
+  font-family: 'Bungee Inline', cursive;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
 }
 
 .intro-container {
