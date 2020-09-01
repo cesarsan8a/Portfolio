@@ -76,3 +76,26 @@
   }
 
 }
+
+@media (max-width: 400px) {
+  .contact-img img {
+    height: 16em;
+  }
+
+  .contact-text h3, .contact-text h4, .contact-text p {
+    width: 210px;
+  }
+
+  .contact-text h3 {
+    font-size: 1.4em;
+  }
+
+  .contact-text h4 {
+    font-size: 0.8em;
+  }
+
+  .contact-text p {
+    font-size: 0.8em;
+  }
+
+}

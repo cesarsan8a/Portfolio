@@ -101,3 +101,28 @@ p {
     transition: 0.8s;
   }
 }
+
+@media (max-width: 400px) {
+  .characteristics {
+    max-width: 10em;
+    transition: 0.8s;
+  }
+
+  .characteristics h2 {
+    font-size: 120%;
+    transition: 0.8s;
+  }
+
+  .greeting {
+    padding-top: 1.5em;
+    display: block;
+    transition: 0.8s;
+  }
+
+  .greeting h1 {
+    font-size: 1.2em;
+    width: 8em;
+    padding-bottom: 0.5em;
+    transition: 0.8s;
+  }
+}

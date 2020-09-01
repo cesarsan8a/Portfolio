@@ -59,5 +59,23 @@
   .description p {
     font-size: 0.95em;
   }
+}
 
+@media (max-width: 400px) {
+  .desc-pic {
+    flex-direction: column;
+  }
+
+  .project-pic {
+    margin: 0 auto 2em;
+  }
+
+  .description, .description p {
+    display: flex;
+    margin: 0 auto;
+  }
+
+  .description p {
+    margin: auto 1em;;
+  }
 }
