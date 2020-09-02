@@ -70,7 +70,7 @@
     text-shadow: 5px 5px #3fc1c9;
   }
 
-  .contact-text h4 {
+  .contact-text h4 a {
     font-size: 1em;
     color: #fc5185;
     text-shadow: 1px 1px #3fc1c9;
@@ -96,7 +96,7 @@
     font-size: 1.4em;
   }
 
-  .contact-text h4 {
+  .contact-text h4 a {
     font-size: 0.8em;
   }
 
