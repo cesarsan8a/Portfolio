@@ -29,6 +29,12 @@
   width: 400px;
   object-fit: cover;
   box-shadow: 10px 10px 2px #fc5185;
+  transition: 0.8s;
+}
+
+.project-pic img:hover {
+  box-shadow: 10px 10px 2px #3fc1c9;
+  transition: 0.8s;
 }
 
 .description {
