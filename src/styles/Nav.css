@@ -63,12 +63,16 @@ nav a {
 }
 
 @media (max-width: 800px) {
+  .links-container {
+    margin-left: 0.5em;
+  }
+
   .nav-link {
-    margin: auto 0.5em;
+    margin: auto 0.4em;
   }
 
   .nav-link a {
-    font-size: 1em;
+    font-size: 0.9em;
   }
 }
 
