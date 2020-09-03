@@ -5,7 +5,8 @@ import apollo from '../utils/apollo_phone.jpg';
 class Contact extends Component {
   render() {
     return(
-      <div className="contact-container">
+      <div id='contact' className="contact-container">
+        {/* <section id='contact'>hola</section> */}
         <div className="contact-img">
           <img src={ apollo } alt="Apollo with phone"/>
         </div>

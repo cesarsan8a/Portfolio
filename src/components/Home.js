@@ -13,7 +13,7 @@ class Home extends Component {
   render () {
     return (
         <div className="home-container">
-          <Nav />
+          <Nav page="/" />
           <Intro
             text="Hey! I'm Cesar. I'm a"
             david={ david }

@@ -18,6 +18,12 @@ a {
 
 .footer-link svg {
   color: #f5f5f5;
+  transition: 0.5s;
+}
+
+.footer-link svg:hover {
+  color: #3fc1c9;
+  transition: 0.8s;
 }
 
 .logo-links {
@@ -28,10 +34,6 @@ a {
   visibility: hidden;
   border: 2px solid #f5f5f5;
   box-shadow: 2px 2px #3fc1c9;
-}
-
-.footer-link-us:hover {
-  visibility: visible;
 }
 
 .cc-cesar {
@@ -49,7 +51,6 @@ a {
 
 .cc-cesar a:hover {
   opacity: 1;
-  color: black;
   text-shadow: 2px 2px #3fc1c9;
   transition: 0.3s;
 }

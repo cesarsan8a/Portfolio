@@ -17,7 +17,7 @@ class Work extends Component {
   render() {
     return (
       <div className="work-container">
-        <Nav />
+        <Nav page="/work" />
         <Intro
           text="Hey! I'm still Cesar"
           david={ david }

@@ -2,7 +2,7 @@ import React from 'react';
 import Home from './Home';
 import Work from './Work';
 import '../styles/App.css';
-import { HashRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 function App() {
   return (
