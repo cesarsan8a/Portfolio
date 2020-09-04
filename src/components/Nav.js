@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import '../styles/Nav.css'
 
@@ -18,11 +18,28 @@ function Nav (props) {
 
       <div className="links-container">
         <div className="nav-link">
-          <Link to='/'>Home</Link>
+          <NavLink
+            to='/'
+            activeStyle={{
+              color: "#fc5185",
+              textShadow: "2px 2px #3fc1c9"
+            }}
+            exact
+          >
+            Home
+          </NavLink>
         </div>
 
         <div className="nav-link">
-          <Link to='/work'>Work</Link>
+          <NavLink
+            to='/work'
+            activeStyle={{
+              color: "#fc5185",
+              textShadow: "2px 2px #3fc1c9"
+            }}
+          >
+            Work
+          </NavLink>
         </div>
 
         <div className="nav-link">
