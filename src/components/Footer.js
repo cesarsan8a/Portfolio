@@ -39,7 +39,7 @@ function Footer () {
       </div>
 
       <div className="cc-cesar">
-        <p>©2020 <Link to="/">Cesar Sanchez</Link>. All rights reserved.</p>
+        <p>©{ new Date().getFullYear() } <Link to="/">Cesar Sanchez</Link>. All rights reserved.</p>
       </div>
 
     </div>
