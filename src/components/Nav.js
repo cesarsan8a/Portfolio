@@ -43,7 +43,7 @@ function Nav (props) {
         </div>
 
         <div className="nav-link">
-          <a href="https://www.canva.com/design/DAEFwHfLcM4/ofwrUoNcF7lNyFkmoeeGDA/view?utm_content=DAEFwHfLcM4&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton" target="_blank" rel="noopener noreferrer">Resume</a>
+          <a href="https://www.canva.com/design/DAEVmIr9B1E/1Xr3cVoOU52RmNL_AJ7HJA/view?utm_content=DAEVmIr9B1E&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank" rel="noopener noreferrer">Resume</a>
         </div>
 
         <div className="nav-link">
