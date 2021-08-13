@@ -1,9 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\.cert",
     "\\src",
     "\\src\\styles"
   ],
-  "SelectedNode": "\\src\\styles\\Nav.css",
+  "SelectedNode": "\\.cert",
   "PreviewInSolutionExplorer": false
 }
